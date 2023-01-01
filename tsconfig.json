@@ -1,0 +1,7 @@
+{
+  "files": ["./src/ts/main.ts", "./src/ts/greet.ts", "./src/ts/Typewriter.ts"],
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "target": "es2015"
+  }
+}

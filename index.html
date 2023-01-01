@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PRAMIX IT</title>
+    <link rel="stylesheet" href="./public/css/app.css" />
+  </head>
+  <body>
+    <main>
+      <div class="typewriter-box whitespace"></div>
+      <form action="" method="">
+        <input type="tel" name="phone_no" id="phone-no" />
+      </form>
+    </main>
+    <footer></footer>
+    <script src="./public/js/main.js"></script>
+    <script>
+      const typewriter = new Typewriter(document.querySelector('.whitespace'), { loop: true });
+      typewriter
+        .typeString('Where do I start?')
+        .pauseFor(1000)
+        .typeString('\n\nfunctio')
+        .deleteChars(7)
+        .typeString('const temp')
+        .pauseFor(150)
+        .deleteAll()
+        .typeString('Why is this so hard?')
+        .pauseFor(1000)
+        .typeString('\n\nDoes everyone struggle this much?')
+        .pauseFor(1000)
+        .typeString('\n\nThere has to be an easier way')
+        .pauseFor(1000)
+        .deleteAll(10)
+        .start();
+    </script>
+  </body>
+</html>
